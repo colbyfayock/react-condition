@@ -3,8 +3,8 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 module.exports = {
 
   entry: {
-    'index': './src/js/index.js',
-    'condition': './src/js/condition.js',
+    'index': './src/index.js',
+    'condition': './src/condition.js',
   },
 
   output: {
@@ -33,7 +33,7 @@ module.exports = {
 
   plugins: [
     new HtmlWebPackPlugin({
-      template: "./src/index.html",
+      template: "./public/index.html",
       filename: "./index.html"
     })
   ]
