@@ -7,7 +7,7 @@
   "homepage": "https://github.com/colbyfayock/react-condition",
   "repository": {
     "type": "git",
-    "url": "git@github.com:yogaboll/react-npm-component-starter.git"
+    "url": "git@github.com:colbyfayock/react-condition.git"
   },
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
