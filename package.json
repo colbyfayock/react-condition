@@ -1,9 +1,14 @@
 {
   "name": "react-condition",
-  "description": "Conditionall render your React components",
-  "version": "1.0.0",
-  "author": "Colby Fayock",
+  "version": "0.1.0",
+  "description": "Conditionally render your React components",
+  "author": "Colby Fayock <hello@colbyfayock.com>",
   "license": "MIT",
+  "homepage": "https://github.com/colbyfayock/react-condition",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yogaboll/react-npm-component-starter.git"
+  },
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production"
