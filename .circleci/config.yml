@@ -4,5 +4,5 @@ jobs:
     docker: # See https://docs.docker.com/get-started/#docker-concepts if you are new to Docker.
       - image: circleci/node:10-browsers
     steps:
-      - checkout
-      - run: npm build
+      - run: yarn install
+      - run: yarn build
