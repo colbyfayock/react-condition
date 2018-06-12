@@ -4,7 +4,7 @@ module.exports = {
 
   entry: {
     'index': './src/index.js',
-    'condition': './src/condition.js',
+    'demo': './src/demo.js',
   },
 
   output: {
@@ -34,7 +34,8 @@ module.exports = {
   plugins: [
     new HtmlWebPackPlugin({
       template: "./public/index.html",
-      filename: "./index.html"
+      filename: "./index.html",
+      chunks: ['demo']
     })
   ]
 
