@@ -1,2 +1,2 @@
-import { If } from './src/condition';
-export { If };
+var Condition = require('./dist/condition')
+module.exports = Condition;
