@@ -1,6 +1,6 @@
 {
   "name": "react-condition",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Conditionally render your React components",
   "author": "Colby Fayock <hello@colbyfayock.com>",
   "license": "MIT",

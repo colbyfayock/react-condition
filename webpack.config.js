@@ -9,6 +9,7 @@ module.exports = {
 
   output: {
     filename: '[name].js',
+    library: 'reactCondition',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
