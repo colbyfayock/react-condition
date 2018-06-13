@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { If } from '../src/condition';
+import { If } from './condition';
 
 const App = () => {
   return (

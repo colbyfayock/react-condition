@@ -8,7 +8,9 @@ module.exports = {
   },
 
   output: {
-    filename: '[name].js'
+    filename: '[name].js',
+    libraryTarget: 'umd',
+    umdNamedDefine: true
   },
 
   module: {
